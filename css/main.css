@@ -1,0 +1,219 @@
+body{
+	background-color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	border:none;
+}
+img{
+	border:none;
+}	
+#container{
+	position:relative;
+	width:786px;
+	margin:0px auto;
+	background-color:#FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+#logo{
+	position:relative;
+	width:193px;
+	margin:0px auto;
+		display:none;
+}
+#top_line{
+	position:absolute;
+	width:100%;
+	left:-330px;
+		display:none;
+}
+#top_menu{
+	position:relative;
+	margin-top:40px;
+		display:none;
+}
+
+#top_menu a{
+	color:#333333;
+	font-size:15px;
+	padding:15px 51px;
+}
+#top_menu a:hover{
+	color:#000000;
+	font-weight:bold;
+}
+#top_menu img{
+	padding-right:10px;
+}
+#top_banner{
+	margin-top:15px;
+		display:none;
+}
+#content{
+	width:786px;
+	height:auto;
+}
+#section1{
+	width:244px;
+	height:auto;
+	padding-left:10px;
+	color:#993300;
+	float:left;
+		display:none;
+}
+#section2{
+	width:244px;
+	height:auto;
+	padding-left:10px;
+	color:#993300;
+	float:left;
+		display:none;
+}
+#section3{
+	width:244px;
+	height:auto;
+	padding-left:10px;
+	color:#993300;
+	float:left;
+		display:none;
+}
+.section_heading{
+	font-size:16px;
+	color:#FFFFFF;
+	background-color:#9D9D9D;
+	padding:5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+	text-shadow:#000 1px 1px 1px;
+}
+#bottom_ads{
+	display:none;
+}
+#footer{
+	background-color:#993300;
+	padding-top:1px;
+	padding-left:10px;
+	padding-right:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	font-size:10px;
+	color:#FFFFFF;
+		display:none;
+}
+#bottom_cubes{
+  width: 100%;
+  position: absolute;
+  top: 800;
+  left: 0;
+}
+#contact_page{
+	display:none;
+}
+#rates_page{
+	display:none;
+}
+#admin_page{
+	display:none;
+}
+#admin_page caption{
+	font-size:18px;
+}
+.input_txt{
+	border-top:none;
+	border-color:#999999;
+	padding:5px 5px;
+	color:#666666;
+}
+#info{
+	font-size:11px;
+	color:#666666;
+	display:none;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+#welcome_msg{
+	display:none;
+	text-align:center;
+}
+#header{
+	width:786px;
+	margin:0px auto;
+	color:#FFFFFF;
+	height:22px;
+}
+#user_top{
+	float:left;
+}
+#sign_out{
+	float:right;
+	cursor:pointer;
+}
+#header img {
+    vertical-align: text-bottom;
+}
+#admin_menu{
+	padding-top:20px;
+	padding-left:20px;
+}
+#admin_menu a{
+	color:#666666;
+}
+#admin_menu a:hover{
+	font-weight:bold;
+}
+#new_currency{
+	padding:20px 0px;
+	border:#CC3300 thin solid;
+	display:none;
+}
+#new_currency input{
+	padding:10px 5px;
+	border:#ccc thin solid;
+	color:#666666;
+}
+#new_currency select{
+	color:#666666;
+	padding:10px 5px;
+}
+#new_currency button{
+	padding:10px 5px;
+	border:#ccc thin solid;
+	color:#666;
+}
+#new_currency_info{
+	color:#006600;
+	font-size:11px;
+	text-align:right;
+	display:none;
+}
+#loading_icon{
+	position:absolute;
+	right:10px;
+	top:5px;
+	display:none;
+}
+#all_currency{
+	padding:20px 0px;
+	border:#c30 thin solid;
+	display:none;
+	height:500px;
+	overflow:scroll;
+}
+#all_currency th{
+	font-size:12px;
+	color:#fff;
+	background-color:#666666;	
+	padding:10px 5px;
+}
+#all_currency td{
+	padding:3px 0px;
+}
