@@ -10,12 +10,13 @@
         <script src="js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
         <style type="text/css">
-<!--
-.style2 {color: #FFFFFF}
--->
+            <!--
+            .style2 {color: #FFFFFF}
+            -->
         </style>
 </head>
 <body>
+    <img src="images/bottomCubes.png" alt="" id="bottom_cubes"/>
    	<div id="container">    
     	<div id="logo"><img src="images/maxxlogo.png" alt="Maxx Bureau Logo" /></div><!-- logo -->
         <div id="top_line"><img src="images/topLine.png" alt="Top Line" /></div><!-- top_line -->
@@ -144,6 +145,5 @@ FAX: +255 22 2113458</span></td>
         <div id="bottom_ads"><p><img src="images/bottom_ad1.png" alt="Online Rates" /></p></div><!-- bottom_ads -->
     <div id="footer"><p align="center">© Copyright  Maxx Bureau De Change 2012 ,  All Rights Reserved</p></div><!-- footer -->
     </div><!-- container -->
-   <img src="images/bottomCubes.png" alt="" id="bottom_cubes"/>
 </body>
 </html>
