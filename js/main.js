@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('#section1').delay(3500).slideDown();
 	$('#section2').delay(4000).slideDown();
 	$('#section3').delay(4500).slideDown();
-	$('#bottom_ads').delay(5000).slideDown();
+	$('#bottom_ads').delay(5000).fadeIn();
 	$('#footer').delay(5500).slideDown();
 	$('#container').delay(6000).css('height','auto');
 	
